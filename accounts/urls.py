@@ -23,11 +23,11 @@ urlpatterns = [
     path(
         "tenants/<uuid:tenant_id>/add-member/",
         AddMemberView.as_view(),
-        name="add-member",
+        name="add_member",
     ),
     path(
         "tenants/<uuid:tenant_id>/remove-member/<uuid:user_id>/",
         RemoveMemberView.as_view(),
-        name="remove-member",
+        name="remove_member",
     ),
 ]
