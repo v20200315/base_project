@@ -11,6 +11,8 @@ __pycache__/
 *.egg
 *.egg-info/
 .eggs/
+build/
+dist/
 
 # ----------------------------
 # Virtual Environment (uv)
