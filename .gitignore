@@ -1,0 +1,94 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.pdb
+*.pkl
+*.egg
+*.egg-info/
+.eggs/
+
+# ----------------------------
+# Virtual Environment (uv)
+# ----------------------------
+.venv/
+.uv/
+uv.lock
+poetry.lock
+
+# ----------------------------
+# Django
+# ----------------------------
+*.log
+*.pot
+*.py[cod]
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Ignore Django cache
+*/cache/
+*/tmp/
+*.tmp
+
+# ----------------------------
+# PostgreSQL Dumps
+# ----------------------------
+*.pgsql
+*.sql
+*.backup
+
+# ----------------------------
+# PyCharm
+# ----------------------------
+.idea/
+*.iml
+
+# ----------------------------
+# VSCode (if ever used)
+# ----------------------------
+.vscode/
+
+# ----------------------------
+# Environment Variables
+# ----------------------------
+.env
+.env.*
+*.env
+
+# ----------------------------
+# OS files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Other
+# ----------------------------
+coverage/
+htmlcov/
+*.cover
+*.coverage
+*.mo
+*.swp
+*.swo
+*.orig
+*.bak
+
+# ----------------------------
+# Django Tailwind
+# ----------------------------
+
+# Build output
+theme/static/css/dist/
+
+# Node modules
+theme/static_src/node_modules/
+
+# Optional/temporary files
+theme/static_src/.DS_Store
